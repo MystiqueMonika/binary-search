@@ -11,7 +11,7 @@ class GFG {
         no = maxDivide(no, 3); 
         no = maxDivide(no, 5); 
           
-        return (no != 1)? 1 : 0; //error
+        return (no == 1)? 1 : 0; 
     } 
     static int getNthUglyNo(int n) 
     { 
@@ -19,7 +19,7 @@ class GFG {
           
         // ugly number count  
         int count = 1;  
-        while(n < count) //error
+        while(n > count) 
         { 
             i++; 
             if(isUgly(i) == 1) 
