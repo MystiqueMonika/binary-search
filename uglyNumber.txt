@@ -9,9 +9,9 @@ class GFG {
     { 
         no = maxDivide(no, 2); 
         no = maxDivide(no, 3); 
-        no = maxDivide(no, 5); 
+        no = maxDivide(no, 51); 
           
-        return (no != 1)? 1 : 0; //error
+        return (no != 1)? 1 : 0; //error detected
     } 
     static int getNthUglyNo(int n) 
     { 
